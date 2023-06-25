@@ -32,7 +32,8 @@
     4. [Ray](https://docs.ray.io/en/latest/) - 分布式任务框架，高性能，功能全，亲和 AI 训练 爬虫等。[推荐: 使用]()
   - #### 数据处理
     1. [pydantic](https://pydantic-docs.helpmanual.io/) - 数据校验框架，功能全。[推荐: 使用]()
-    2. [pandas](https://pandas.pydata.org/) - 数据分析框架。[目前:常用, 处理 excel csv 等不要太舒服了]()
+    2. [lux](https://github.com/lux-org/lux.git) - 简单地在 Jupyter 笔记本中打印出数据框，Pandas 配合Lux 输出可视化效果图表
+    2. [pandas](https://pandas.pydata.org/) - 数据分析框架。[目前:常用, 处理 excel csv 非常方便]()
     3. [numpy](https://numpy.org/) - 数学计算框架。
     4. [scipy](https://www.scipy.org/) - 科学计算框架。
     5. [matplotlib](https://matplotlib.org/) - 数据可视化框架。
@@ -68,6 +69,9 @@
     2. [ItChat-UOS](https://github.com/why2lyj/ItChat-UOS.git) - 基于 itchat 的微信机器人，支持多账号，多进程，多线程，多群聊，多好友，多消息类型，多消息格式，多终端（包括 Linux 终端）。
     3. [Asyncer](https://github.com/tiangolo/asyncer.git) - Asyncer，async and await，专注于开发者体验, 提升新能。[推荐: 使用]()
     4. [tenacity](https://github.com/jd/tenacity) - 重试框架，功能全 比如使用于 http 请求超时重新执行函数。
+    5. [memray](https://github.com/bloomberg/memray.git) - 内存分析工具, 使用场景 1.优化内存使用 2.调试内存泄漏 3.分析对象引用。
+    6. [pytest](https://github.com/pytest-dev/pytest.git) - 测试框架，该库可以支持应用程序和库的简单与复杂功能测试。
+    7. [loguru](https://github.com/Delgan/loguru.git) - 日志框架，该库旨在通过添加一系列有用的功能来解决标准log的警告，从而减少 Python 日志记录的繁琐步骤。
   - #### 项目
     1. [qinglong](https://github.com/whyour/qinglong.git) - 支持 Python3、JavaScript、Shell、Typescript 的定时任务管理平台（Timed task management platform supporting Python3, JavaScript, Shell, Typescript）
    
