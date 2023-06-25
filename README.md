@@ -10,17 +10,26 @@
     5. [FastAPI](https://fastapi.tiangolo.com/) - 异步 web 框架，性能好，文档全，社区活跃，但是功能不全，需要自己实现很多功能。[推荐: 挺好用, 效率高，性能高， 简洁]()
   - #### 爬虫
     1. [Scrapy](https://scrapy.org/) - 重量级爬虫框架，功能全。[目前: 在使用]()
-    2. [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) - 解析 html 快速提取字符串。
-    3. [pyquery](https://github.com/gawel/pyquery.git) - 解析 html 快速提取字符串。[推荐: 使用]()
-    4. [requests](https://requests.readthedocs.io/en/master/) - 轻量级爬虫框架，功能全面，不支持异步。
-    5. [aiohttp](https://docs.aiohttp.org/en/stable/) - 异步爬虫框架，性能好。
-    6. [httpx](https://www.python-httpx.org/) - 异步爬虫框架，性能好, 同步异步都支持。 [推荐: 适合需要灵活的爬虫]()
-    7. [crawlab](https://github.com/crawlab-team/crawlab.git) - 分布式爬虫管理平台，功能全，部分功能需要收费/年。
-    8. [Gerapy](https://github.com/Gerapy/Gerapy.git) - 分布式爬虫管理平台，功能全，但是文档不全,社区不活跃，作者属于半年或者几年维护一次的状态。[注: 每几个月出现bug导致任务无法按时运行]()
+    2. [requests](https://requests.readthedocs.io/en/master/) - 轻量级爬虫框架，功能全面，不支持异步。
+    3. [aiohttp](https://docs.aiohttp.org/en/stable/) - 异步爬虫框架，性能好。
+    4. [httpx](https://www.python-httpx.org/) - 异步爬虫框架，性能好, 同步异步都支持。 [推荐: 适合需要灵活的爬虫]()
+    5. [crawlab](https://github.com/crawlab-team/crawlab.git) - 分布式爬虫管理平台，功能全，部分功能需要收费/年。
+    6. [Gerapy](https://github.com/Gerapy/Gerapy.git) - 分布式爬虫管理平台，功能全，但是文档不全,社区不活跃，作者属于半年或者几年维护一次的状态。[注: 每几个月出现bug导致任务无法按时运行]()
+    7. [lxml](https://lxml.de/) – C语言编写高效HTML/XML处理库。支持XPath。
+    8. [cssselect](https://cssselect.readthedocs.io/) – 解析DOM树和CSS选择器。
+    9. [pyquery](https://pythonhosted.org/pyquery/) – 解析DOM树和jQuery选择器。
+    10. [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) – 低效HTML/XML处理库，纯Python实现。
+    11. [html5lib](https://html5lib.readthedocs.io/) – 根据WHATWG规范生成HTML/XML文档的DOM。该规范被用在现在所有的浏览器上。
+    12. [feedparser](https://pythonhosted.org/feedparser/) – 解析RSS/ATOM feeds。
+    13. [MarkupSafe](https://palletsprojects.com/p/markupsafe/) – 为XML/HTML/XHTML提供了安全转义的字符串。
+    14. [xmltodict](https://github.com/martinblech/xmltodict) – 一个可以让你在处理XML时感觉像在处理JSON一样的Python模块。
+    15. [xhtml2pdf](https://github.com/xhtml2pdf/xhtml2pdf) – 将HTML/CSS转换为PDF。
+    16. [untangle](https://github.com/stchris/untangle) – 轻松实现将XML文件转换为Python对象。
   - #### 定时任务 + 分布式
-    1. [APScheduler](https://apscheduler.readthedocs.io/en/stable/) - 轻量级定时任务框架，功能全，但是写代码产生 bug 概率多。[符合业务需求的推荐使用]()
-    2. [Celery](https://docs.celeryproject.org/en/stable/) - 重量级定时任务框架，功能全，但是写代码产生 bug 概率多。 [注: 长期运行的任务支持差]()
-    3. [Ray](https://docs.ray.io/en/latest/) - 分布式任务框架，高性能，功能全，亲和 AI 训练 爬虫等。[推荐: 使用]()
+    1. [APScheduler](https://apscheduler.readthedocs.io/en/stable/) - 轻量级定时任
+    2. 务框架，功能全，但是写代码产生 bug 概率多。[符合业务需求的推荐使用]()
+    3. [Celery](https://docs.celeryproject.org/en/stable/) - 重量级定时任务框架，功能全，但是写代码产生 bug 概率多。 [注: 长期运行的任务支持差]()
+    4. [Ray](https://docs.ray.io/en/latest/) - 分布式任务框架，高性能，功能全，亲和 AI 训练 爬虫等。[推荐: 使用]()
   - #### 数据处理
     1. [pydantic](https://pydantic-docs.helpmanual.io/) - 数据校验框架，功能全。[推荐: 使用]()
     2. [pandas](https://pandas.pydata.org/) - 数据分析框架。[目前:常用, 处理 excel csv 等不要太舒服了]()
@@ -28,6 +37,11 @@
     4. [scipy](https://www.scipy.org/) - 科学计算框架。
     5. [matplotlib](https://matplotlib.org/) - 数据可视化框架。
     6. [seaborn](https://seaborn.pydata.org/) - 数据可视化框架。
+    7. [difflib](https://docs.python.org/3/library/difflib.html) – （Python标准库）帮助进行差异化比较。
+    8. [Levenshtein](https://pypi.org/project/python-Levenshtein/) – 快速计算Levenshtein距离和字符串相似度。
+    9. [fuzzywuzzy](https://pypi.org/project/fuzzywuzzy/) – 模糊字符串匹配。
+    10. [esmre](https://pypi.org/project/esmre/) – 正则表达式加速器。
+    11. [ftfy](https://pypi.org/project/ftfy/) – 自动整理Unicode文本，减少碎片化。
   - #### 数据库
     1. [SQLAlchemy](https://www.sqlalchemy.org/) - ORM 框架，功能全。
     2. [sqlmodel](https://github.com/tiangolo/sqlmodel.git) - Python 中的 SQL 数据库，旨在实现简单性、兼容性和稳健性。[推荐: 使用]()
@@ -53,6 +67,7 @@
     1. [typer](https://github.com/tiangolo/typer.git) - 命令行框架，功能全 [推荐: 使用]()
     2. [ItChat-UOS](https://github.com/why2lyj/ItChat-UOS.git) - 基于 itchat 的微信机器人，支持多账号，多进程，多线程，多群聊，多好友，多消息类型，多消息格式，多终端（包括 Linux 终端）。
     3. [Asyncer](https://github.com/tiangolo/asyncer.git) - Asyncer，async and await，专注于开发者体验, 提升新能。[推荐: 使用]()
+    4. [tenacity](https://github.com/jd/tenacity) - 重试框架，功能全 比如使用于 http 请求超时重新执行函数。
   - #### 项目
     1. [qinglong](https://github.com/whyour/qinglong.git) - 支持 Python3、JavaScript、Shell、Typescript 的定时任务管理平台（Timed task management platform supporting Python3, JavaScript, Shell, Typescript）
    
