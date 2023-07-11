@@ -2,6 +2,9 @@
 
 ### 编程语言
 - ### [Python]()
+  - #### 效率工具
+    1. [poetry](https://python-poetry.org/) - Python 项目管理工具，类似于 npm。
+    2. [pyenv](https://github.com/pyenv/pyenv.git) - Python 版本管理工具，类似于 nvm。   
   - #### web
     1. [Django](https://www.djangoproject.com/) - 重量级 web 框架集成很多功能开箱即用，缺点不灵活。
     2. [Flask](https://flask.palletsprojects.com/en/1.1.x/) - 轻量级 web 框架，灵活，但是需要自己实现很多功能。
@@ -33,22 +36,23 @@
   - #### 数据处理
     1. [pydantic](https://pydantic-docs.helpmanual.io/) - 数据校验框架，功能全。[推荐: 使用]()
     2. [lux](https://github.com/lux-org/lux.git) - 简单地在 Jupyter 笔记本中打印出数据框，Pandas 配合Lux 输出可视化效果图表
-    2. [pandas](https://pandas.pydata.org/) - 数据分析框架。[目前:常用, 处理 excel csv 非常方便]()
-    3. [numpy](https://numpy.org/) - 数学计算框架。
-    4. [scipy](https://www.scipy.org/) - 科学计算框架。
-    5. [matplotlib](https://matplotlib.org/) - 数据可视化框架。
-    6. [seaborn](https://seaborn.pydata.org/) - 数据可视化框架。
-    7. [difflib](https://docs.python.org/3/library/difflib.html) – （Python标准库）帮助进行差异化比较。
-    8. [Levenshtein](https://pypi.org/project/python-Levenshtein/) – 快速计算Levenshtein距离和字符串相似度。
-    9. [fuzzywuzzy](https://pypi.org/project/fuzzywuzzy/) – 模糊字符串匹配。
-    10. [esmre](https://pypi.org/project/esmre/) – 正则表达式加速器。
-    11. [ftfy](https://pypi.org/project/ftfy/) – 自动整理Unicode文本，减少碎片化。
+    3. [pandas](https://pandas.pydata.org/) - 数据分析框架。[目前:常用, 处理 excel csv 非常方便]()
+    4. [numpy](https://numpy.org/) - 数学计算框架。
+    5. [scipy](https://www.scipy.org/) - 科学计算框架。
+    6. [matplotlib](https://matplotlib.org/) - 数据可视化框架。
+    7. [seaborn](https://seaborn.pydata.org/) - 数据可视化框架。
+    8. [difflib](https://docs.python.org/3/library/difflib.html) – （Python标准库）帮助进行差异化比较。
+    9. [Levenshtein](https://pypi.org/project/python-Levenshtein/) – 快速计算Levenshtein距离和字符串相似度。
+    10. [fuzzywuzzy](https://pypi.org/project/fuzzywuzzy/) – 模糊字符串匹配。
+    11. [esmre](https://pypi.org/project/esmre/) – 正则表达式加速器。
+    12. [ftfy](https://pypi.org/project/ftfy/) – 自动整理Unicode文本，减少碎片化。
   - #### 数据库
     1. [SQLAlchemy](https://www.sqlalchemy.org/) - ORM 框架，功能全。
     2. [sqlmodel](https://github.com/tiangolo/sqlmodel.git) - Python 中的 SQL 数据库，旨在实现简单性、兼容性和稳健性。[推荐: 使用]()
     3. [pymongo](https://github.com/mongodb/mongo-python-driver.git) - MongoDB 底层级操作框架，功能全。
     4. [motor](https://github.com/mongodb/motor.git) - MongoDB 异步操作框架，性能好。
     5. [odmantic](https://github.com/art049/odmantic.git) - MongoDB ORM 框架与fastapi 绝配，但是作者处理bug问题不积极。
+    6. [beanie](https://github.com/roman-right/beanie.git) - MongoDB ORM 框架, 基于 motor 开发能与 fastapi配合 [推荐: 使用]()
   - #### AI
     1. [langchain]() - AI LLM 底层级框架，灵活，提供丰富的功能。
     2. [llama_index]() - 基于 langchain 封装的数据索引 [推荐使用]()
@@ -72,6 +76,7 @@
     5. [memray](https://github.com/bloomberg/memray.git) - 内存分析工具, 使用场景 1.优化内存使用 2.调试内存泄漏 3.分析对象引用。
     6. [pytest](https://github.com/pytest-dev/pytest.git) - 测试框架，该库可以支持应用程序和库的简单与复杂功能测试。
     7. [loguru](https://github.com/Delgan/loguru.git) - 日志框架，该库旨在通过添加一系列有用的功能来解决标准log的警告，从而减少 Python 日志记录的繁琐步骤。
+    8. [mypy](https://github.com/python/mypy.git) - 静态类型检查器，该库可以帮助开发者在开发过程中发现代码中的错误。
   - #### 项目
     1. [qinglong](https://github.com/whyour/qinglong.git) - 支持 Python3、JavaScript、Shell、Typescript 的定时任务管理平台（Timed task management platform supporting Python3, JavaScript, Shell, Typescript）
    
