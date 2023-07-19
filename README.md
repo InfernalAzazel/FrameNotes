@@ -29,10 +29,9 @@
     15. [xhtml2pdf](https://github.com/xhtml2pdf/xhtml2pdf) – 将HTML/CSS转换为PDF。
     16. [untangle](https://github.com/stchris/untangle) – 轻松实现将XML文件转换为Python对象。
   - #### 定时任务 + 分布式
-    1. [APScheduler](https://apscheduler.readthedocs.io/en/stable/) - 轻量级定时任
-    2. 务框架，功能全，但是写代码产生 bug 概率多。[符合业务需求的推荐使用]()
-    3. [Celery](https://docs.celeryproject.org/en/stable/) - 重量级定时任务框架，功能全，但是写代码产生 bug 概率多。 [注: 长期运行的任务支持差]()
-    4. [Ray](https://docs.ray.io/en/latest/) - 分布式任务框架，高性能，功能全，亲和 AI 训练 爬虫等。[推荐: 使用]()
+    1. [APScheduler](https://apscheduler.readthedocs.io/en/stable/) - 轻量级定时任务框架，功能全。[符合业务需求的推荐使用]()
+    2. [Celery](https://docs.celeryproject.org/en/stable/) - 重量级定时任务框架，功能全。 [注: 长期运行的任务支持差]()
+    3. [Ray](https://docs.ray.io/en/latest/) - AI 分布式任务训练框架，高性能，功能全。[推荐: 使用]()
   - #### 数据处理
     1. [pydantic](https://pydantic-docs.helpmanual.io/) - 数据校验框架，功能全。[推荐: 使用]()
     2. [lux](https://github.com/lux-org/lux.git) - 简单地在 Jupyter 笔记本中打印出数据框，Pandas 配合Lux 输出可视化效果图表
@@ -48,11 +47,11 @@
     12. [ftfy](https://pypi.org/project/ftfy/) – 自动整理Unicode文本，减少碎片化。
   - #### 数据库
     1. [SQLAlchemy](https://www.sqlalchemy.org/) - ORM 框架，功能全。
-    2. [sqlmodel](https://github.com/tiangolo/sqlmodel.git) - Python 中的 SQL 数据库，旨在实现简单性、兼容性和稳健性。[推荐: 使用]()
-    3. [pymongo](https://github.com/mongodb/mongo-python-driver.git) - MongoDB 底层级操作框架，功能全。
-    4. [motor](https://github.com/mongodb/motor.git) - MongoDB 异步操作框架，性能好。
+    2. [sqlmodel](https://github.com/tiangolo/sqlmodel.git) - Python 中的 SQL 数据库，旨在实现简单性、兼容性和稳健性
+    3. [pymongo](https://github.com/mongodb/mongo-python-driver.git) - MongoDB 底层级操作框架，功能全。 。[推荐: 使用]()
+    4. [motor](https://github.com/mongodb/motor.git) - MongoDB 异步操作框架，性能好。 。[推荐: 使用]()
     5. [odmantic](https://github.com/art049/odmantic.git) - MongoDB ORM 框架与fastapi 绝配，但是作者处理bug问题不积极。
-    6. [beanie](https://github.com/roman-right/beanie.git) - MongoDB ORM 框架, 基于 motor 开发能与 fastapi配合 [推荐: 使用]()
+    6. [beanie](https://github.com/roman-right/beanie.git) - MongoDB ORM 框架, 基于 motor 开发能与 fastapi配合
   - #### AI
     1. [langchain]() - AI LLM 底层级框架，灵活，提供丰富的功能。
     2. [llama_index]() - 基于 langchain 封装的数据索引 [推荐使用]()
@@ -60,11 +59,12 @@
     4. [chainlit](https://github.com/Chainlit/chainlit.git) - 在几分钟内构建Python LLM应用程序 [推荐使用]()
     5. [scikit-learn](https://scikit-learn.org/stable/) - 机器学习框架。
     6. [pytorch](https://pytorch.org/) - 深度学习框架。[推荐: 使用]()
-    7. [tensorflow](https://www.tensorflow.org/) - 深度学习框架，功能全。
-    8. [keras](https://keras.io/) - 深度学习框架。
-    9. [xgboost](https://xgboost.readthedocs.io/en/latest/) - 机器学习框架。
-    10. [lightgbm](https://lightgbm.readthedocs.io/en/latest/) - 机器学习框架。
-    11. [catboost](https://catboost.ai/) - 机器学习框架。
+    7. [lightning](https://www.pytorchlightning.ai/) - 基于 pytorch 封装简化开发，实现工程于科学分离的框架 [推荐: 使用]()
+    8. [tensorflow](https://www.tensorflow.org/) - 深度学习框架，功能全。
+    9. [keras](https://keras.io/) - 深度学习框架。
+    10. [xgboost](https://xgboost.readthedocs.io/en/latest/) - 机器学习框架。
+    11. [lightgbm](https://lightgbm.readthedocs.io/en/latest/) - 机器学习框架。
+    12. [catboost](https://catboost.ai/) - 机器学习框架。
   - #### 金融
     1. [akshare](https://github.com/akfamily/akshare.git) - 开源财经数据接口库。
     2. [backtrader](https://github.com/mementum/backtrader.git) - 开源量化交易框架。
@@ -78,7 +78,8 @@
     7. [loguru](https://github.com/Delgan/loguru.git) - 日志框架，该库旨在通过添加一系列有用的功能来解决标准log的警告，从而减少 Python 日志记录的繁琐步骤。
     8. [mypy](https://github.com/python/mypy.git) - 静态类型检查器，该库可以帮助开发者在开发过程中发现代码中的错误。
   - #### 项目
-    1. [qinglong](https://github.com/whyour/qinglong.git) - 支持 Python3、JavaScript、Shell、Typescript 的定时任务管理平台（Timed task management platform supporting Python3, JavaScript, Shell, Typescript）
+    1. [qinglong](https://github.com/whyour/qinglong.git) - 支持 Python3、JavaScript、Shell、Typescript 的定时任务管理平台
+    2. [minio](https://github.com/minio/minio-py.git) - MinIO OSS 云储存支持群集 [推荐: 使用]()
    
 - ### [JS&TS]()
   - #### web
