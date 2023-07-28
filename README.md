@@ -45,6 +45,10 @@
     10. [fuzzywuzzy](https://pypi.org/project/fuzzywuzzy/) – 模糊字符串匹配。
     11. [esmre](https://pypi.org/project/esmre/) – 正则表达式加速器。
     12. [ftfy](https://pypi.org/project/ftfy/) – 自动整理Unicode文本，减少碎片化。
+  - #### 图形界面库
+    1. [DearPyGui](https://github.com/hoffstadt/DearPyGui.git) - 跨平台图形界面库，功能全
+    2. [nicegui](https://github.com/zauberzeug/nicegui.git) - 跨平台图形界面库
+    3. [qt-material](https://github.com/UN-GCPDS/qt-material.git) - 跨平台图形界面主题库
   - #### 数据库
     1. [SQLAlchemy](https://www.sqlalchemy.org/) - ORM 框架，功能全。
     2. [sqlmodel](https://github.com/tiangolo/sqlmodel.git) - Python 中的 SQL 数据库，旨在实现简单性、兼容性和稳健性
@@ -65,9 +69,14 @@
     10. [xgboost](https://xgboost.readthedocs.io/en/latest/) - 机器学习框架。
     11. [lightgbm](https://lightgbm.readthedocs.io/en/latest/) - 机器学习框架。
     12. [catboost](https://catboost.ai/) - 机器学习框架。
+    13. [text2vec](https://github.com/InfernalAzazel/text2vec.git) - 文本向量化框架，功能全。
+    14. [modelscope](https://github.com/modelscope/modelscope.git) - 模型可视化框架，功能全。
+    15. [transformers](https://github.com/huggingface/transformers.git) - 自然语言处理框架，功能全。
+    16. [spaCy](https://github.com/explosion/spaCy.git) - 分词框架，功能全。
   - #### 金融
     1. [akshare](https://github.com/akfamily/akshare.git) - 开源财经数据接口库。
     2. [backtrader](https://github.com/mementum/backtrader.git) - 开源量化交易框架。
+    3. [fastquant](https://github.com/enzoampil/fastquant.git) - 开源量化交易框架。
   - #### 其他库
     1. [typer](https://github.com/tiangolo/typer.git) - 命令行框架，功能全 [推荐: 使用]()
     2. [ItChat-UOS](https://github.com/why2lyj/ItChat-UOS.git) - 基于 itchat 的微信机器人，支持多账号，多进程，多线程，多群聊，多好友，多消息类型，多消息格式，多终端（包括 Linux 终端）。
@@ -76,10 +85,21 @@
     5. [memray](https://github.com/bloomberg/memray.git) - 内存分析工具, 使用场景 1.优化内存使用 2.调试内存泄漏 3.分析对象引用。
     6. [pytest](https://github.com/pytest-dev/pytest.git) - 测试框架，该库可以支持应用程序和库的简单与复杂功能测试。
     7. [loguru](https://github.com/Delgan/loguru.git) - 日志框架，该库旨在通过添加一系列有用的功能来解决标准log的警告，从而减少 Python 日志记录的繁琐步骤。
-    8. [mypy](https://github.com/python/mypy.git) - 静态类型检查器，该库可以帮助开发者在开发过程中发现代码中的错误。
+    8. [structlog](https://github.com/hynek/structlog.git) - structlog是Python 的生产就绪日志记录解决方案, 简单 功能强大 快速
+    9. [mypy](https://github.com/python/mypy.git) - 静态类型检查器，该库可以帮助开发者在开发过程中发现代码中的错误。
+    10. [weblate]() - 协作翻译平台，支持自部署。
+    11. [googlesearch](https://github.com/Nv7-GitHub/googlesearch.git) - 谷歌搜索接口，支持自定义搜索引擎。
+    12. [dynaconf](https://github.com/dynaconf/dynaconf.git) - 配置管理框架，支持多种配置文件格式，支持多种配置源，支持多种配置环境，支持多种配置格式，支持多种配置模式，支持多种配置管理方式。
+    13. [tqdm](https://github.com/tqdm/tqdm.git) - 进度条框架，功能全。
   - #### 项目
     1. [qinglong](https://github.com/whyour/qinglong.git) - 支持 Python3、JavaScript、Shell、Typescript 的定时任务管理平台
     2. [minio](https://github.com/minio/minio-py.git) - MinIO OSS 云储存支持群集 [推荐: 使用]()
+    3. [electerm](https://github.com/electerm/electerm.git) - 一个跨平台的终端/远程管理器，支持 Linux、MacOS、Windows
+    4. [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT.git) - 一个自动化的 GPT-3 生成器。
+    5. [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui.git) - 一个图片生成 AI项目。
+    6. [vnpy](https://github.com/vnpy/vnpy.git) - 一个开源量化交易平台。
+    7. [urh](https://github.com/jopohl/urh.git) - 一个开源无线电分析和攻击工具。
+    8. [mirai](https://github.com/mamoe/mirai.git) - 一个开源 QQ 机器人框架。
    
 - ### [JS&TS]()
   - #### web
@@ -88,3 +108,7 @@
   - #### 爬虫
     1. [crawlee](https://github.com/apify/crawlee.git) - 重量级 web 框架集成很多功能开箱即用。
     2. [apify-sdk](https://github.com/apify/apify-sdk-js.git) - 基于crawlee 爬虫管理平台有一定的免费空间。
+  - #### 其它库
+    1. [mini-program-tailwind](https://github.com/dcasia/mini-program-tailwind.git) - 微信小程序 tailwindcss 框架。
+    2. [LogicFlow](https://github.com/didi/LogicFlow.git) - 一个基于 G6 封装的逻辑流程图编辑器。
+    3. [ruabick](https://github.com/dewfall123/ruabick.git) - 一个 vue 组件库开发工具，类似dumi，基于 VitePress。
