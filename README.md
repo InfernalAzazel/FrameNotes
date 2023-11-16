@@ -28,10 +28,11 @@
     14. [xmltodict](https://github.com/martinblech/xmltodict) – 一个可以让你在处理XML时感觉像在处理JSON一样的Python模块。
     15. [xhtml2pdf](https://github.com/xhtml2pdf/xhtml2pdf) – 将HTML/CSS转换为PDF。
     16. [untangle](https://github.com/stchris/untangle) – 轻松实现将XML文件转换为Python对象。
+    17. [dominate](https://github.com/Knio/dominate) - 在 python 代码上轻松写 html 内容 [推荐: 好用]()
   - #### 定时任务 + 分布式
     1. [APScheduler](https://apscheduler.readthedocs.io/en/stable/) - 轻量级定时任务框架，功能全。[符合业务需求的推荐使用]()
-    2. [Celery](https://docs.celeryproject.org/en/stable/) - 重量级定时任务框架，功能全。 [注: 长期运行的任务支持差]()
-    3. [Ray](https://docs.ray.io/en/latest/) - AI 分布式任务训练框架，高性能，功能全。[推荐: 使用]()
+    2. [Celery](https://docs.celeryproject.org/en/stable/) - 重量级定时任务框架，功能全。 [注: 功能强大，要求细节处理]()
+    3. [Ray](https://docs.ray.io/en/latest/) - AI 分布式任务训练框架，高性能，功能全。
   - #### 数据处理
     1. [pydantic](https://pydantic-docs.helpmanual.io/) - 数据校验框架，功能全。[推荐: 使用]()
     2. [lux](https://github.com/lux-org/lux.git) - 简单地在 Jupyter 笔记本中打印出数据框，Pandas 配合Lux 输出可视化效果图表
@@ -45,6 +46,8 @@
     10. [fuzzywuzzy](https://pypi.org/project/fuzzywuzzy/) – 模糊字符串匹配。
     11. [esmre](https://pypi.org/project/esmre/) – 正则表达式加速器。
     12. [ftfy](https://pypi.org/project/ftfy/) – 自动整理Unicode文本，减少碎片化。
+    13. [ansi2html](https://github.com/pycontribs/ansi2html) - 将终端输出高亮文本转换为html高亮 [注: 好用]()
+    14. [weasyprint](https://github.com/Kozea/WeasyPrint) - 将 html 完美 转成 PDF  [注: 神器]()
   - #### 图形界面库
     1. [DearPyGui](https://github.com/hoffstadt/DearPyGui.git) - 跨平台图形界面库，功能全
     2. [nicegui](https://github.com/zauberzeug/nicegui.git) - 跨平台图形界面库
@@ -77,6 +80,7 @@
     1. [akshare](https://github.com/akfamily/akshare.git) - 开源财经数据接口库。
     2. [backtrader](https://github.com/mementum/backtrader.git) - 开源量化交易框架。
     3. [fastquant](https://github.com/enzoampil/fastquant.git) - 开源量化交易框架。
+    4. [tqsdk-python](https://github.com/shinnytech/tqsdk-python) - 开源量化交易框架, 可以实盘操作。
   - #### 其他库
     1. [typer](https://github.com/tiangolo/typer.git) - 命令行框架，功能全 [推荐: 使用]()
     2. [ItChat-UOS](https://github.com/why2lyj/ItChat-UOS.git) - 基于 itchat 的微信机器人，支持多账号，多进程，多线程，多群聊，多好友，多消息类型，多消息格式，多终端（包括 Linux 终端）。
@@ -91,6 +95,7 @@
     11. [googlesearch](https://github.com/Nv7-GitHub/googlesearch.git) - 谷歌搜索接口，支持自定义搜索引擎。
     12. [dynaconf](https://github.com/dynaconf/dynaconf.git) - 配置管理框架，支持多种配置文件格式，支持多种配置源，支持多种配置环境，支持多种配置格式，支持多种配置模式，支持多种配置管理方式。
     13. [tqdm](https://github.com/tqdm/tqdm.git) - 进度条框架，功能全。
+    14. [arrow](https://arrow.readthedocs.io/en/latest/) - Arrow是一个 Python 库，它提供了一种合理且人性化的方法来创建、操作、格式化和转换日期、时间和时间戳。它实现并更新了日期时间类型，填补了功能空白并提供了支持许多常见创建场景的智能模块 API。简而言之，它可以帮助您使用更少的导入和更少的代码来处理日期和时间。
   - #### 项目
     1. [qinglong](https://github.com/whyour/qinglong.git) - 支持 Python3、JavaScript、Shell、Typescript 的定时任务管理平台
     2. [minio](https://github.com/minio/minio-py.git) - MinIO OSS 云储存支持群集 [推荐: 使用]()
