@@ -4,7 +4,10 @@
 - ### [Python]()
   - #### 效率工具
     1. [poetry](https://python-poetry.org/) - Python 项目管理工具，类似于 npm。
-    2. [pyenv](https://github.com/pyenv/pyenv.git) - Python 版本管理工具，类似于 nvm。   
+    2. [pyenv](https://github.com/pyenv/pyenv.git) - Python 版本管理工具，类似于 nvm。  
+    3. [Dynaconf](https://github.com/dynaconf/dynaconf) - Python 的配置管理
+    4. [pytest](https://github.com/pytest-dev/pytest) - pytest框架可以轻松编写小型、可读的测试，并且可以扩展以支持应用程序和库的复杂功能测试。
+    5. [python-dotenv](https://github.com/theskumar/python-dotenv)- python-dotenv 从文件中读取键值对.env，并可以将它们设置为环境变量
   - #### web
     1. [Django](https://www.djangoproject.com/) - 重量级 web 框架集成很多功能开箱即用，缺点不灵活。
     2. [Flask](https://flask.palletsprojects.com/en/1.1.x/) - 轻量级 web 框架，灵活，但是需要自己实现很多功能。
@@ -35,23 +38,37 @@
     3. [Ray](https://docs.ray.io/en/latest/) - AI 分布式任务训练框架，高性能，功能全。
   - #### 数据处理
     1. [pydantic](https://pydantic-docs.helpmanual.io/) - 数据校验框架，功能全。[推荐: 使用]()
-    2. [lux](https://github.com/lux-org/lux.git) - 简单地在 Jupyter 笔记本中打印出数据框，Pandas 配合Lux 输出可视化效果图表
-    3. [pandas](https://pandas.pydata.org/) - 数据分析框架。[目前:常用, 处理 excel csv 非常方便]()
-    4. [numpy](https://numpy.org/) - 数学计算框架。
-    5. [scipy](https://www.scipy.org/) - 科学计算框架。
-    6. [matplotlib](https://matplotlib.org/) - 数据可视化框架。
-    7. [seaborn](https://seaborn.pydata.org/) - 数据可视化框架。
-    8. [difflib](https://docs.python.org/3/library/difflib.html) – （Python标准库）帮助进行差异化比较。
-    9. [Levenshtein](https://pypi.org/project/python-Levenshtein/) – 快速计算Levenshtein距离和字符串相似度。
-    10. [fuzzywuzzy](https://pypi.org/project/fuzzywuzzy/) – 模糊字符串匹配。
-    11. [esmre](https://pypi.org/project/esmre/) – 正则表达式加速器。
-    12. [ftfy](https://pypi.org/project/ftfy/) – 自动整理Unicode文本，减少碎片化。
-    13. [ansi2html](https://github.com/pycontribs/ansi2html) - 将终端输出高亮文本转换为html高亮 [注: 好用]()
-    14. [weasyprint](https://github.com/Kozea/WeasyPrint) - 将 html 完美 转成 PDF  [注: 神器]()
+    2. [pydantic_extra_types](https://github.com/pydantic/pydantic-extra-types) - pydantic 扩展额外数据类型
+    3. [pydantic-settings](https://github.com/pydantic/pydantic-settings) -  pydantic 扩展可获取环境变量
+    4. [lux](https://github.com/lux-org/lux.git) - 简单地在 Jupyter 笔记本中打印出数据框，Pandas 配合Lux 输出可视化效果图表
+    5. [pandas](https://pandas.pydata.org/) - 数据分析框架。[目前:常用, 处理 excel csv 非常方便]()
+    6. [numpy](https://numpy.org/) - 数学计算框架。
+    7. [scipy](https://www.scipy.org/) - 科学计算框架。
+    8. [matplotlib](https://matplotlib.org/) - 数据可视化框架。
+    9. [seaborn](https://seaborn.pydata.org/) - 数据可视化框架。
+    10. [difflib](https://docs.python.org/3/library/difflib.html) – （Python标准库）帮助进行差异化比较。
+    11. [Levenshtein](https://pypi.org/project/python-Levenshtein/) – 快速计算Levenshtein距离和字符串相似度。
+    12. [fuzzywuzzy](https://pypi.org/project/fuzzywuzzy/) – 模糊字符串匹配。
+    13. [esmre](https://pypi.org/project/esmre/) – 正则表达式加速器。
+    14. [ftfy](https://pypi.org/project/ftfy/) – 自动整理Unicode文本，减少碎片化。
+    15. [ansi2html](https://github.com/pycontribs/ansi2html) - 将终端输出高亮文本转换为html高亮 [注: 好用]()
+    16. [weasyprint](https://github.com/Kozea/WeasyPrint) - 将 html 完美 转成 PDF  [注: 神器]()
+    17. [pygments](https://github.com/pygments/pygments) - 代码高亮 [注: 神器]()
+    18. [rich](https://github.com/Textualize/rich) - 打造令人愉悦的命令行界面。
+    19. [tqdm](https://github.com/tqdm/tqdm) - 显示进度条的模块,可迭代对象和CLI中使用。
+    20. [Pillow](https://github.com/python-pillow/Pillow) - Pillow图像处理库。
   - #### 图形界面库
     1. [DearPyGui](https://github.com/hoffstadt/DearPyGui.git) - 跨平台图形界面库，功能全
     2. [nicegui](https://github.com/zauberzeug/nicegui.git) - 跨平台图形界面库
     3. [qt-material](https://github.com/UN-GCPDS/qt-material.git) - 跨平台图形界面主题库
+  - #### 网络编程
+    1. [Twisted](https://github.com/twisted/twisted) - 是一个异步网络框架,可以用它来建立远程桌面连接,传输画面等。
+    2. [Impacket](https://github.com/fortra/impacket) - Impacket是一个用于处理网络协议的Python库，旨在为渗透测试人员、网络安全研究人员和开发人员提供一种方便的方式来与网络协议进行交互。它提供了许多用于处理和操作各种网络协议的功能和工具.
+    3. [Paramiko](https://github.com/paramiko/paramiko) - 一个用于SSH和SFTP的Python实现，可用于通过SSH协议进行远程命令执行和文件传输。
+    4. [pycryptodomex](https://github.com/Legrandin/pycryptodome) - PyCryptodome 是一个独立的 Python 低级加密原语包。
+    5. [cryptography](https://github.com/pyca/cryptography) - 是一个为 Python 开发人员提供加密配方和原语的包。我们的目标是让它成为您的“密码标准库”。
+    6. [Scapy](https://github.com/secdev/scapy) - 一个功能强大的网络包操作工具和交互库，可以用于创建、发送和解析网络数据包。它可以用于网络扫描、漏洞利用、协议分析等任务。
+    7. [python3-nmap](https://github.com/nmmapper/python3-nmap) - 与Nmap（网络映射器）工具进行集成的库，用于进行端口扫描和服务识别。它可以用于发现目标主机上开放的端口和运行的服务。
   - #### 数据库
     1. [SQLAlchemy](https://www.sqlalchemy.org/) - ORM 框架，功能全。
     2. [sqlmodel](https://github.com/tiangolo/sqlmodel.git) - Python 中的 SQL 数据库，旨在实现简单性、兼容性和稳健性
@@ -87,15 +104,12 @@
     3. [Asyncer](https://github.com/tiangolo/asyncer.git) - Asyncer，async and await，专注于开发者体验, 提升新能。[推荐: 使用]()
     4. [tenacity](https://github.com/jd/tenacity) - 重试框架，功能全 比如使用于 http 请求超时重新执行函数。
     5. [memray](https://github.com/bloomberg/memray.git) - 内存分析工具, 使用场景 1.优化内存使用 2.调试内存泄漏 3.分析对象引用。
-    6. [pytest](https://github.com/pytest-dev/pytest.git) - 测试框架，该库可以支持应用程序和库的简单与复杂功能测试。
-    7. [loguru](https://github.com/Delgan/loguru.git) - 日志框架，该库旨在通过添加一系列有用的功能来解决标准log的警告，从而减少 Python 日志记录的繁琐步骤。
-    8. [structlog](https://github.com/hynek/structlog.git) - structlog是Python 的生产就绪日志记录解决方案, 简单 功能强大 快速
-    9. [mypy](https://github.com/python/mypy.git) - 静态类型检查器，该库可以帮助开发者在开发过程中发现代码中的错误。
-    10. [weblate]() - 协作翻译平台，支持自部署。
-    11. [googlesearch](https://github.com/Nv7-GitHub/googlesearch.git) - 谷歌搜索接口，支持自定义搜索引擎。
-    12. [dynaconf](https://github.com/dynaconf/dynaconf.git) - 配置管理框架，支持多种配置文件格式，支持多种配置源，支持多种配置环境，支持多种配置格式，支持多种配置模式，支持多种配置管理方式。
-    13. [tqdm](https://github.com/tqdm/tqdm.git) - 进度条框架，功能全。
-    14. [arrow](https://arrow.readthedocs.io/en/latest/) - Arrow是一个 Python 库，它提供了一种合理且人性化的方法来创建、操作、格式化和转换日期、时间和时间戳。它实现并更新了日期时间类型，填补了功能空白并提供了支持许多常见创建场景的智能模块 API。简而言之，它可以帮助您使用更少的导入和更少的代码来处理日期和时间。
+    6. [loguru](https://github.com/Delgan/loguru.git) - 日志框架，该库旨在通过添加一系列有用的功能来解决标准log的警告，从而减少 Python 日志记录的繁琐步骤。
+    7. [structlog](https://github.com/hynek/structlog.git) - structlog是Python 的生产就绪日志记录解决方案, 简单 功能强大 快速
+    8. [mypy](https://github.com/python/mypy.git) - 静态类型检查器，该库可以帮助开发者在开发过程中发现代码中的错误。
+    9. [weblate]() - 协作翻译平台，支持自部署。
+    10. [googlesearch](https://github.com/Nv7-GitHub/googlesearch.git) - 谷歌搜索接口，支持自定义搜索引擎。
+    11. [arrow](https://arrow.readthedocs.io/en/latest/) - Arrow是一个 Python 库，它提供了一种合理且人性化的方法来创建、操作、格式化和转换日期、时间和时间戳。它实现并更新了日期时间类型，填补了功能空白并提供了支持许多常见创建场景的智能模块 API。简而言之，它可以帮助您使用更少的导入和更少的代码来处理日期和时间。
   - #### 项目
     1. [qinglong](https://github.com/whyour/qinglong.git) - 支持 Python3、JavaScript、Shell、Typescript 的定时任务管理平台
     2. [minio](https://github.com/minio/minio-py.git) - MinIO OSS 云储存支持群集 [推荐: 使用]()
